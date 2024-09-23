@@ -3,7 +3,12 @@
 }
 
 .viewport {
-  @apply flex items-start w-full justify-center overflow-y-auto overflow-x-hidden;
+  @apply flex items-start w-full lg:justify-center overflow-y-scroll;
+  scrollbar-width: none;
+}
+
+.viewport::-webkit-scrollbar{
+  display: none;
 }
 
 .primaryBtn {
