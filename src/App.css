@@ -1,0 +1,11 @@
+.dragDropDiv {
+  @apply bg-green-400 flex items-center justify-center w-full h-auto p-8;
+}
+
+.viewport {
+  @apply flex items-start w-full justify-center overflow-y-auto overflow-x-hidden;
+}
+
+.primaryBtn {
+  @apply cursor-pointer bg-green-400 hover:bg-green-600 focus:ring-4 focus:ring-blue-300 px-5 py-2.5 mb-2;
+}
